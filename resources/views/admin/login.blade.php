@@ -48,7 +48,12 @@
                                     <span>Remember me</span>
                                 </label>
                             </div>
+
+                            @can('edit_form')
                             <button type="submit" class="btn btn-primary btn-lg btn-block">LOGIN</button>
+                            @endcan
+
+
                             <div class="bottom">
                                 <span class="helper-text"><i class="fa fa-lock"></i> <a href="#">Forgot password?</a></span>
                             </div>

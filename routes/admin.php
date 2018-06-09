@@ -1,6 +1,6 @@
 <?php
 
-Route::group(['prefix'=>'admin','namespace'=>'Admin'],function (){
+Route::group(['namespace'=>'Admin'],function (){
 
     // 登陆页面
     Route::get('/','LoginController@index');
